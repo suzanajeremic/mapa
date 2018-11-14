@@ -1,4 +1,93 @@
- a.subotica {
+html,
+body {
+    background: black;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+#header1 {
+
+    width: 100%;
+    height: 8%;
+    background: #1a001a;
+    margin: 0 auto;
+    z-index: 3;
+
+}
+
+#header2 {
+    width: 100%;
+    height: 11%;
+    background: #4d194d;
+    margin: 0 auto;
+
+
+}
+
+.nav1 {
+
+    color: white;
+    margin-left: 8%;
+    margin-top: 1.5%;
+    font-size: 80%;
+    z-index: 3;
+
+}
+
+.nav1 a {
+    margin-left: 2%;
+    color: white;
+}
+
+.nav1 span {
+    margin-left: 4%;
+    color: white;
+    font-size: 160%;
+
+}
+
+.naslovnaSlika {
+    width: 100%;
+    position: absolute;
+
+}
+
+#vestiVinarija {
+    color: white;
+    z-index: 3;
+    position: absolute;
+    font-size: 170%;
+    text-align: center;
+    padding-top: 7%;
+
+
+}
+
+#border {
+
+    position: absolute;
+    width: 8%;
+    border-bottom: 2px solid white;
+    margin-left: 45%;
+    bottom: 2%;
+
+
+}
+
+section {
+    left: 10%;
+    right: 10%;
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 15%;
+    z-index: 3;
+}
+
+
+
+@media screen and (max-width: 600px) {
+
+   a.subotica {
         margin-left: 72.5%;
         margin-top: 41%;
         position: absolute;

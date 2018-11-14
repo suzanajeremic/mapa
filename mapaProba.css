@@ -1,100 +1,10 @@
-html,
-body {
-    background: black;
-    width: 100%;
-    overflow-x: hidden;
-}
-
-#header1 {
-
-    width: 100%;
-    height: 8%;
-    background: #1a001a;
-    margin: 0 auto;
-    z-index: 3;
-
-}
-
-#header2 {
-    width: 100%;
-    height: 11%;
-    background: #4d194d;
-    margin: 0 auto;
-
-
-}
-
-.nav1 {
-
-    color: white;
-    margin-left: 8%;
-    margin-top: 1.5%;
-    font-size: 80%;
-    z-index: 3;
-
-}
-
-.nav1 a {
-    margin-left: 2%;
-    color: white;
-}
-
-.nav1 span {
-    margin-left: 4%;
-    color: white;
-    font-size: 160%;
-
-}
-
-.naslovnaSlika {
-    width: 100%;
-    position: absolute;
-
-}
-
-#vestiVinarija {
-    color: white;
-    z-index: 3;
-    position: absolute;
-    font-size: 170%;
-    text-align: center;
-    padding-top: 7%;
-
-
-}
-
-#border {
-
-    position: absolute;
-    width: 8%;
-    border-bottom: 2px solid white;
-    margin-left: 45%;
-    bottom: 2%;
-
-
-}
-
-section {
-    left: 10%;
-    right: 10%;
-    margin: 0 auto;
-    width: 80%;
-    margin-top: 15%;
-    z-index: 3;
-}
-
-
-
-@media screen and (max-width: 600px) {
-
-  
-    a.subotica {
+ a.subotica {
         margin-left: 72.5%;
         margin-top: 41%;
         position: absolute;
         font-size: 10%;
         padding: 0.2%;
-
+        border: 0.2px solid gray;
     }
     a.potiski {
         margin-left: 72.5%;
@@ -102,7 +12,7 @@ section {
         position: absolute;
         font-size: 10%;
         padding: 0.2%;
-
+        border: 0.2px solid gray;
     }
     a.banatski {
         margin-left: 72%;
@@ -110,7 +20,7 @@ section {
         position: absolute;
         font-size: 10%;
         padding: 0.2%;
-
+        border: 0.2px solid gray;
     }
     a.juznobanatski {
         margin-left: 69.5%;
@@ -118,7 +28,7 @@ section {
         position: absolute;
         font-size: 10%;
         padding: 0.2%;
-
+        border: 0.2px solid gray;
     }
     a.mlavski {
         margin-left: 72.5%;
@@ -126,7 +36,7 @@ section {
         position: absolute;
         font-size: 10%;
         padding: 0.2%;
-
+        border: 0.2px solid gray;
     }
     a.sumadija {
         margin-left: 72%;
@@ -134,7 +44,7 @@ section {
         position: absolute;
         font-size: 10%;
         padding: 0.2%;
-
+        border: 0.2px solid gray;
     }
     a.negotinska {
         margin-left: 66%;
@@ -142,7 +52,7 @@ section {
         position: absolute;
         font-size: 10%;
         padding: 0.2%;
-
+        border: 0.2px solid gray;
     }
     a.knjazevacki {
         margin-left: 70%;
@@ -150,7 +60,7 @@ section {
         position: absolute;
         font-size: 10%;
         padding: 0.2%;
-
+        border: 0.2px solid gray;
     }
     a.niski {
         margin-left: 73%;
@@ -158,7 +68,7 @@ section {
         position: absolute;
         font-size: 10%;
         padding: 0.2%;
-
+        border: 0.2px solid gray;
     }
     a.nisavski {
         margin-left: 73%;
@@ -166,7 +76,7 @@ section {
         position: absolute;
         font-size: 10%;
         padding: 0.2%;
-
+        border: 0.2px solid gray;
     }
     a.leskovacki {
         margin-left: 72%;
@@ -174,7 +84,7 @@ section {
         position: absolute;
         font-size: 10%;
         padding: 0.2%;
-
+        border: 0.2px solid gray;
     }
     a.vranjski {
         margin-left: 70%;
@@ -182,7 +92,7 @@ section {
         position: absolute;
         font-size: 10%;
         padding: 0.2%;
-
+        border: 0.2px solid gray;
     }
     a.backi {
         margin-left: 5%;
@@ -190,7 +100,7 @@ section {
         position: absolute;
         font-size: 10%;
         padding: 0.2%;
-
+        border: 0.2px solid gray;
     }
     a.telecka {
         margin-left: 8.3%;
@@ -198,7 +108,7 @@ section {
         position: absolute;
         font-size: 10%;
         padding: 0.2%;
-
+        border: 0.2px solid gray;
     }
     a.sremski {
         margin-left: 6%;
@@ -206,7 +116,7 @@ section {
         position: absolute;
         font-size: 10%;
         padding: 0.2%;
-
+        border: 0.2px solid gray;
     }
     a.beogradski {
         margin-left: 3%;
@@ -214,7 +124,7 @@ section {
         position: absolute;
         font-size: 10%;
         padding: 0.2%;
-
+        border: 0.2px solid gray;
     }
     a.pocerski {
         margin-left: 4%;
@@ -222,7 +132,7 @@ section {
         position: absolute;
         font-size: 10%;
         padding: 0.2%;
-
+        border: 0.2px solid gray;
     }
     a.cacanski {
         margin-left: 0.1%;
@@ -230,38 +140,40 @@ section {
         position: absolute;
         font-size: 10%;
         padding: 0.2%;
-
+        border: 0.2px solid gray;
     }
     a.triMorave {
-        margin-left: 13%;
-        margin-top: 82.6%;
+        margin-left: 12.5%;
+        margin-top: 82.2%;
         position: absolute;
         font-size: 10%;
         padding: 0.2%;
-
+        border: 0.2px solid gray;
     }
     a.toplicki {
-        margin-left: 21%;
+        margin-left: 20%;
         margin-top: 86.5%;
         position: absolute;
         font-size: 10%;
         padding: 0.2%;
-
+        border: 0.2px solid gray;
     }
     a.metohijski {
-        margin-left: 20%;
+        margin-left: 19%;
         margin-top: 95%;
         position: absolute;
         font-size: 10%;
         padding: 0.2%;
-
+        border: 0.5px solid gray;
+        border: 0.2px solid gray;
     }
     a.juznoMetohijski {
-        margin-left: 16%;
-        margin-top: 98.6%;
+        margin-left: 15%;
+        margin-top: 99%;
         position: absolute;
         font-size: 10%;
         padding: 0.2%;
+        border: 0.2px solid gray;
 
     }
 
@@ -270,8 +182,17 @@ section {
         margin-top: 30%;
 
     }
-   
+    p.mesec {
+
+
+        transform: rotate(270deg);
+        font-size: 100%;
+        position: absolute;
+        left: 40%;
+        bottom: 95%;
+    }
 }
+
 #mapa {
     width: 100%;
     position: absolute;
@@ -287,7 +208,7 @@ section {
     color: gray;
     background: white;
     padding: 0.5%;
-    border: 1px solid gray;
+    border: 0.5px solid gray;
 }
 
 .subotica:hover {
@@ -302,8 +223,7 @@ section {
     color: gray;
     background: white;
     padding: 0.5%;
-    border: 1px solid gray;
-
+    border: 0.5px solid gray;
 }
 
 .potiski:hover {
@@ -318,7 +238,7 @@ section {
     color: gray;
     background: white;
     padding: 0.5%;
-    border: 1px solid gray;
+    border: 0.5px solid gray;
 
 }
 
@@ -334,7 +254,7 @@ section {
     color: gray;
     background: white;
     padding: 0.5%;
-    border: 1px solid gray;
+    border: 0.5px solid gray;
 
 }
 
@@ -350,7 +270,7 @@ section {
     color: gray;
     background: white;
     padding: 0.5%;
-    border: 1px solid gray;
+    border: 0.5px solid gray;
 
 }
 
@@ -366,7 +286,7 @@ section {
     color: gray;
     background: white;
     padding: 0.5%;
-    border: 1px solid gray;
+    border: 0.5px solid gray;
 
 }
 
@@ -382,7 +302,7 @@ section {
     color: gray;
     background: white;
     padding: 0.5%;
-    border: 1px solid gray;
+    border: 0.5px solid gray;
 
 }
 
@@ -398,7 +318,7 @@ section {
     color: gray;
     background: white;
     padding: 0.5%;
-    border: 1px solid gray;
+    border: 0.5px solid gray;
 
 }
 
@@ -414,7 +334,7 @@ section {
     color: gray;
     background: white;
     padding: 0.5%;
-    border: 1px solid gray;
+    border: 0.5px solid gray;
 
 }
 
@@ -430,7 +350,7 @@ section {
     color: gray;
     background: white;
     padding: 0.5%;
-    border: 1px solid gray;
+    border: 0.5px solid gray;
 
 }
 
@@ -446,7 +366,7 @@ section {
     color: gray;
     background: white;
     padding: 0.5%;
-    border: 1px solid gray;
+    border: 0.5px solid gray;
 
 }
 
@@ -462,7 +382,7 @@ section {
     color: gray;
     background: white;
     padding: 0.5%;
-    border: 1px solid gray;
+    border: 0.5px solid gray;
 
 }
 
@@ -478,7 +398,7 @@ section {
     color: gray;
     background: white;
     padding: 0.5%;
-    border: 1px solid gray;
+    border: 0.5px solid gray;
 
 }
 
@@ -494,7 +414,7 @@ section {
     color: gray;
     background: white;
     padding: 0.5%;
-    border: 1px solid gray;
+    border: 0.5px solid gray;
 
 }
 
@@ -510,7 +430,7 @@ section {
     color: gray;
     background: white;
     padding: 0.5%;
-    border: 1px solid gray;
+    border: 0.5px solid gray;
 
 }
 
@@ -526,7 +446,7 @@ section {
     color: gray;
     background: white;
     padding: 0.5%;
-    border: 1px solid gray;
+    border: 0.5px solid gray;
 
 }
 
@@ -542,7 +462,7 @@ section {
     color: gray;
     background: white;
     padding: 0.5%;
-    border: 1px solid gray;
+    border: 0.5px solid gray;
 
 }
 
@@ -558,7 +478,7 @@ section {
     color: gray;
     background: white;
     padding: 0.5%;
-    border: 1px solid gray;
+    border: 0.5px solid gray;
 
 }
 
@@ -574,7 +494,7 @@ section {
     color: gray;
     background: white;
     padding: 0.5%;
-    border: 1px solid gray;
+    border: 0.5px solid gray;
 
 }
 
@@ -582,21 +502,7 @@ section {
     color: darkgray;
 }
 
-.toplicki {
-    position: absolute;
-    margin-left: 27.5%;
-    margin-top: 56.5%;
-    font-size: 80%;
-    color: gray;
-    background: white;
-    padding: 0.5%;
-    border: 1px solid gray;
 
-}
-
-.toplicki:hover {
-    color: darkgray;
-}
 
 .toplicki {
     position: absolute;
@@ -606,7 +512,7 @@ section {
     color: gray;
     background: white;
     padding: 0.5%;
-    border: 1px solid gray;
+    border: 0.5px solid gray;
 
 }
 
@@ -622,7 +528,7 @@ section {
     color: gray;
     background: white;
     padding: 0.5%;
-    border: 1px solid gray;
+    border: 0.5px solid gray;
 
 }
 
@@ -638,10 +544,11 @@ section {
     color: gray;
     background: white;
     padding: 0.5%;
-    border: 1px solid gray;
+    border: 0.5px solid gray;
 
 }
 
 .juznoMetohijski:hover {
     color: darkgray;
 }
+

@@ -1,0 +1,647 @@
+html,
+body {
+    background: black;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+#header1 {
+
+    width: 100%;
+    height: 8%;
+    background: #1a001a;
+    margin: 0 auto;
+    z-index: 3;
+
+}
+
+#header2 {
+    width: 100%;
+    height: 11%;
+    background: #4d194d;
+    margin: 0 auto;
+
+
+}
+
+.nav1 {
+
+    color: white;
+    margin-left: 8%;
+    margin-top: 1.5%;
+    font-size: 80%;
+    z-index: 3;
+
+}
+
+.nav1 a {
+    margin-left: 2%;
+    color: white;
+}
+
+.nav1 span {
+    margin-left: 4%;
+    color: white;
+    font-size: 160%;
+
+}
+
+.naslovnaSlika {
+    width: 100%;
+    position: absolute;
+
+}
+
+#vestiVinarija {
+    color: white;
+    z-index: 3;
+    position: absolute;
+    font-size: 170%;
+    text-align: center;
+    padding-top: 7%;
+
+
+}
+
+#border {
+
+    position: absolute;
+    width: 8%;
+    border-bottom: 2px solid white;
+    margin-left: 45%;
+    bottom: 2%;
+
+
+}
+
+section {
+    left: 10%;
+    right: 10%;
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 15%;
+    z-index: 3;
+}
+
+
+
+@media screen and (max-width: 600px) {
+
+  
+    a.subotica {
+        margin-left: 72.5%;
+        margin-top: 41%;
+        position: absolute;
+        font-size: 10%;
+        padding: 0.2%;
+
+    }
+    a.potiski {
+        margin-left: 72.5%;
+        margin-top: 44.2%;
+        position: absolute;
+        font-size: 10%;
+        padding: 0.2%;
+
+    }
+    a.banatski {
+        margin-left: 72%;
+        margin-top: 47.5%;
+        position: absolute;
+        font-size: 10%;
+        padding: 0.2%;
+
+    }
+    a.juznobanatski {
+        margin-left: 69.5%;
+        margin-top: 56.5%;
+        position: absolute;
+        font-size: 10%;
+        padding: 0.2%;
+
+    }
+    a.mlavski {
+        margin-left: 72.5%;
+        margin-top: 60%;
+        position: absolute;
+        font-size: 10%;
+        padding: 0.2%;
+
+    }
+    a.sumadija {
+        margin-left: 72%;
+        margin-top: 65%;
+        position: absolute;
+        font-size: 10%;
+        padding: 0.2%;
+
+    }
+    a.negotinska {
+        margin-left: 66%;
+        margin-top: 71.5%;
+        position: absolute;
+        font-size: 10%;
+        padding: 0.2%;
+
+    }
+    a.knjazevacki {
+        margin-left: 70%;
+        margin-top: 75.3%;
+        position: absolute;
+        font-size: 10%;
+        padding: 0.2%;
+
+    }
+    a.niski {
+        margin-left: 73%;
+        margin-top: 81.4%;
+        position: absolute;
+        font-size: 10%;
+        padding: 0.2%;
+
+    }
+    a.nisavski {
+        margin-left: 73%;
+        margin-top: 87.6%;
+        position: absolute;
+        font-size: 10%;
+        padding: 0.2%;
+
+    }
+    a.leskovacki {
+        margin-left: 72%;
+        margin-top: 92.7%;
+        position: absolute;
+        font-size: 10%;
+        padding: 0.2%;
+
+    }
+    a.vranjski {
+        margin-left: 70%;
+        margin-top: 97.8%;
+        position: absolute;
+        font-size: 10%;
+        padding: 0.2%;
+
+    }
+    a.backi {
+        margin-left: 5%;
+        margin-top: 45.8%;
+        position: absolute;
+        font-size: 10%;
+        padding: 0.2%;
+
+    }
+    a.telecka {
+        margin-left: 8.3%;
+        margin-top: 52.6%;
+        position: absolute;
+        font-size: 10%;
+        padding: 0.2%;
+
+    }
+    a.sremski {
+        margin-left: 6%;
+        margin-top: 59.3%;
+        position: absolute;
+        font-size: 10%;
+        padding: 0.2%;
+
+    }
+    a.beogradski {
+        margin-left: 3%;
+        margin-top: 63%;
+        position: absolute;
+        font-size: 10%;
+        padding: 0.2%;
+
+    }
+    a.pocerski {
+        margin-left: 4%;
+        margin-top: 70%;
+        position: absolute;
+        font-size: 10%;
+        padding: 0.2%;
+
+    }
+    a.cacanski {
+        margin-left: 0.1%;
+        margin-top: 75.2%;
+        position: absolute;
+        font-size: 10%;
+        padding: 0.2%;
+
+    }
+    a.triMorave {
+        margin-left: 13%;
+        margin-top: 82.6%;
+        position: absolute;
+        font-size: 10%;
+        padding: 0.2%;
+
+    }
+    a.toplicki {
+        margin-left: 21%;
+        margin-top: 86.5%;
+        position: absolute;
+        font-size: 10%;
+        padding: 0.2%;
+
+    }
+    a.metohijski {
+        margin-left: 20%;
+        margin-top: 95%;
+        position: absolute;
+        font-size: 10%;
+        padding: 0.2%;
+
+    }
+    a.juznoMetohijski {
+        margin-left: 16%;
+        margin-top: 98.6%;
+        position: absolute;
+        font-size: 10%;
+        padding: 0.2%;
+
+    }
+
+    #mapa {
+        right: 2%;
+        margin-top: 30%;
+
+    }
+   
+}
+#mapa {
+    width: 100%;
+    position: absolute;
+
+
+}
+
+.subotica {
+    position: absolute;
+    margin-left: 78%;
+    margin-top: 11.5%;
+    font-size: 80%;
+    color: gray;
+    background: white;
+    padding: 0.5%;
+    border: 1px solid gray;
+}
+
+.subotica:hover {
+    color: darkgray;
+}
+
+.potiski {
+    position: absolute;
+    margin-left: 78%;
+    margin-top: 14.3%;
+    font-size: 80%;
+    color: gray;
+    background: white;
+    padding: 0.5%;
+    border: 1px solid gray;
+
+}
+
+.potiski:hover {
+    color: darkgray;
+}
+
+.banatski {
+    position: absolute;
+    margin-left: 77.5%;
+    margin-top: 17.7%;
+    font-size: 80%;
+    color: gray;
+    background: white;
+    padding: 0.5%;
+    border: 1px solid gray;
+
+}
+
+.banatski:hover {
+    color: darkgray;
+}
+
+.juznobanatski {
+    position: absolute;
+    margin-left: 75%;
+    margin-top: 27%;
+    font-size: 80%;
+    color: gray;
+    background: white;
+    padding: 0.5%;
+    border: 1px solid gray;
+
+}
+
+.juznobanatski:hover {
+    color: darkgray;
+}
+
+.mlavski {
+    position: absolute;
+    margin-left: 78%;
+    margin-top: 30.5%;
+    font-size: 80%;
+    color: gray;
+    background: white;
+    padding: 0.5%;
+    border: 1px solid gray;
+
+}
+
+.mlavski:hover {
+    color: darkgray;
+}
+
+.sumadija {
+    position: absolute;
+    margin-left: 77.5%;
+    margin-top: 35.3%;
+    font-size: 80%;
+    color: gray;
+    background: white;
+    padding: 0.5%;
+    border: 1px solid gray;
+
+}
+
+.sumadija:hover {
+    color: darkgray;
+}
+
+.negotinska {
+    position: absolute;
+    margin-left: 73%;
+    margin-top: 41.3%;
+    font-size: 80%;
+    color: gray;
+    background: white;
+    padding: 0.5%;
+    border: 1px solid gray;
+
+}
+
+.negotinska:hover {
+    color: darkgray;
+}
+
+.knjazevacki {
+    position: absolute;
+    margin-left: 75.5%;
+    margin-top: 45.6%;
+    font-size: 80%;
+    color: gray;
+    background: white;
+    padding: 0.5%;
+    border: 1px solid gray;
+
+}
+
+.knjazevacki:hover {
+    color: darkgray;
+}
+
+.niski {
+    position: absolute;
+    margin-left: 78.6%;
+    margin-top: 51.6%;
+    font-size: 80%;
+    color: gray;
+    background: white;
+    padding: 0.5%;
+    border: 1px solid gray;
+
+}
+
+.niski:hover {
+    color: darkgray;
+}
+
+.nisavski {
+    position: absolute;
+    margin-left: 80.1%;
+    margin-top: 57.3%;
+    font-size: 80%;
+    color: gray;
+    background: white;
+    padding: 0.5%;
+    border: 1px solid gray;
+
+}
+
+.nisavski:hover {
+    color: darkgray;
+}
+
+.leskovacki {
+    position: absolute;
+    margin-left: 79.3%;
+    margin-top: 62.7%;
+    font-size: 80%;
+    color: gray;
+    background: white;
+    padding: 0.5%;
+    border: 1px solid gray;
+
+}
+
+.leskovacki:hover {
+    color: darkgray;
+}
+
+.vranjski {
+    position: absolute;
+    margin-left: 76.6%;
+    margin-top: 67.8%;
+    font-size: 80%;
+    color: gray;
+    background: white;
+    padding: 0.5%;
+    border: 1px solid gray;
+
+}
+
+.vranjski:hover {
+    color: darkgray;
+}
+
+.backi {
+    position: absolute;
+    margin-left: 13.4%;
+    margin-top: 16.2%;
+    font-size: 80%;
+    color: gray;
+    background: white;
+    padding: 0.5%;
+    border: 1px solid gray;
+
+}
+
+.backi:hover {
+    color: darkgray;
+}
+
+.telecka {
+    position: absolute;
+    margin-left: 15.7%;
+    margin-top: 22.7%;
+    font-size: 80%;
+    color: gray;
+    background: white;
+    padding: 0.5%;
+    border: 1px solid gray;
+
+}
+
+.telecka:hover {
+    color: darkgray;
+}
+
+.sremski {
+    position: absolute;
+    margin-left: 13.4%;
+    margin-top: 29.2%;
+    font-size: 80%;
+    color: gray;
+    background: white;
+    padding: 0.5%;
+    border: 1px solid gray;
+
+}
+
+.sremski:hover {
+    color: darkgray;
+}
+
+.beogradski {
+    position: absolute;
+    margin-left: 13%;
+    margin-top: 33.1%;
+    font-size: 80%;
+    color: gray;
+    background: white;
+    padding: 0.5%;
+    border: 1px solid gray;
+
+}
+
+.beogradski:hover {
+    color: darkgray;
+}
+
+.pocerski {
+    position: absolute;
+    margin-left: 13%;
+    margin-top: 39.8%;
+    font-size: 80%;
+    color: gray;
+    background: white;
+    padding: 0.5%;
+    border: 1px solid gray;
+
+}
+
+.pocerski:hover {
+    color: darkgray;
+}
+
+.cacanski {
+    position: absolute;
+    margin-left: 9.5%;
+    margin-top: 45.2%;
+    font-size: 80%;
+    color: gray;
+    background: white;
+    padding: 0.5%;
+    border: 1px solid gray;
+
+}
+
+.cacanski:hover {
+    color: darkgray;
+}
+
+.triMorave {
+    position: absolute;
+    margin-left: 21.2%;
+    margin-top: 52.5%;
+    font-size: 80%;
+    color: gray;
+    background: white;
+    padding: 0.5%;
+    border: 1px solid gray;
+
+}
+
+.triMorave:hover {
+    color: darkgray;
+}
+
+.toplicki {
+    position: absolute;
+    margin-left: 27.5%;
+    margin-top: 56.5%;
+    font-size: 80%;
+    color: gray;
+    background: white;
+    padding: 0.5%;
+    border: 1px solid gray;
+
+}
+
+.toplicki:hover {
+    color: darkgray;
+}
+
+.toplicki {
+    position: absolute;
+    margin-left: 27.5%;
+    margin-top: 56.5%;
+    font-size: 80%;
+    color: gray;
+    background: white;
+    padding: 0.5%;
+    border: 1px solid gray;
+
+}
+
+.toplicki:hover {
+    color: darkgray;
+}
+
+.metohijski {
+    position: absolute;
+    margin-left: 29.7%;
+    margin-top: 65%;
+    font-size: 80%;
+    color: gray;
+    background: white;
+    padding: 0.5%;
+    border: 1px solid gray;
+
+}
+
+.metohijski:hover {
+    color: darkgray;
+}
+
+.juznoMetohijski {
+    position: absolute;
+    margin-left: 25.9%;
+    margin-top: 69%;
+    font-size: 80%;
+    color: gray;
+    background: white;
+    padding: 0.5%;
+    border: 1px solid gray;
+
+}
+
+.juznoMetohijski:hover {
+    color: darkgray;
+}
